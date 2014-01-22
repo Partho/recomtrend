@@ -8,7 +8,7 @@ def get_page():
 
     # Open the Yahoo Finance! analyst opinion section of the selected stock code
     try:
-    	stockurl = "http://finance.yahoo.com/q/ao?s="+str(sys.argv[1])+"+Analyst+Opinion"
+    stockurl = "http://finance.yahoo.com/q/ao?s="+str(sys.argv[1])+"+Analyst+Opinion"
         return  urllib.urlopen(stockurl).read()
     except:
         print "Error !! Invalid Stock Code..."
