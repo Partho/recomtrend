@@ -15,6 +15,7 @@ To generate the market sentiments indicator using recomtrend, enter the followin
 
             $ python recomtrend.py <Stock Symbol>
 Examples:
+
             $ python recomtrend.py AAPL
             $ python recomtrend.py XOM 
 
