@@ -2,27 +2,27 @@ DESCRIPTION
 =======================================================
 
 This program allows you to generate the market sentiment indicator of a particular stock.
-This program is developed to generate market sentiment indicator for our research titled
+This program is developed to generate market sentiments indicator for our research titled
 "A novel approach to forecasting equity price movements with the help of neural network 
-based on heuristics and market sentiments".The analyst opinion recommendation trends from 
-Yahoo Finance!™ has been used for providing market sentiments indicator. The data was 
-provided by Thomson/first call website.
+based on heuristics and market sentiments".
+The analyst opinion recommendation trends from Yahoo Finance!™ has been used for providing market sentiments indicator. The data was provided by Thomson/first call website.
 
 
 COMMAND LINE USAGE
 -------------------------------------------------------
 
-If you want to generate the market sentiment indicator, just do the following:
+To generate the market sentiments indicator using recomtrend, enter the following into the terminal -
 
             $ python recomtrend.py <Stock Symbol>
-            Example: $ python recomtrend.py AAPL
-            Example: $ python recomtrend.py XOM 
+Examples:
+            $ python recomtrend.py AAPL
+            $ python recomtrend.py XOM 
 
 
 COPYRIGHT
 -------------------------------------------------------
 
-Yahoo Finance!™ is a registered trademark of Yahoo!
+Yahoo Finance!™ is a registered trademark of Yahoo! Inc.
 
 Copyright 2014 Partho Mandal
 
